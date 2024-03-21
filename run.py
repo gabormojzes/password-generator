@@ -2,5 +2,8 @@ from password_generator.config import Config
 from password_generator.generator import Generator
 from password_generator.password import Password
 
-password: Password = Generator(Config.get()).generate()
-print(password)
+try:
+    password: Password = Generator(Config.load()).generate()
+    print(password)
+except Exception as e:
+    print(f"Error: {e}")

@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "password_generator"
-version = "0.7.3"
+version = "0.8.0"
 description = "A customisable Python package utilised for generating random passwords, featuring an integrated password entropy calculator."
 readme = "README.md"
