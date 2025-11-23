@@ -1,6 +1,17 @@
 # Password Generator
 A customisable Python package utilised for generating random passwords, featuring an integrated password entropy calculator.
 
+### How to install and try it out
+```
+git clone https://github.com/gabormojzes/password-generator.git
+cd password-generator
+python3 -m venv venv
+source venv/bin/activate
+
+pip install .
+python run.py
+```
+
 ### How to use
 After installing the package use following import:
 ```
